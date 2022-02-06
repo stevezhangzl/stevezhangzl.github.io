@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>SteveZhang博客</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-02-02T10:39:12.000Z</updated>
+  <updated>2022-02-03T11:32:35.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>张龙</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My First</title>
-    <link href="http://example.com/2022/02/02/My-First/"/>
-    <id>http://example.com/2022/02/02/My-First/</id>
+    <title>Vue - 动画</title>
+    <link href="http://example.com/2022/02/02/Vue-%E5%8A%A8%E7%94%BB/"/>
+    <id>http://example.com/2022/02/02/Vue-%E5%8A%A8%E7%94%BB/</id>
     <published>2022-02-02T10:39:12.000Z</published>
-    <updated>2022-02-02T10:39:12.000Z</updated>
+    <updated>2022-02-03T11:32:35.000Z</updated>
     
+    <content type="html"><![CDATA[<ul><li>在CSS过渡和动画中自动应用class</li><li>可以配合使用第三方CSS动画库，如Animate.css</li><li>在过渡钩子函数中使用JavaScript直接操作DOM</li><li>可以配合全名用第三方JavaScript动画库，如Velocity.js</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;在CSS过渡和动画中自动应用class&lt;/li&gt;
+&lt;li&gt;可以配合使用第三方CSS动画库，如Animate.css&lt;/li&gt;
+&lt;li&gt;在过渡钩子函数中使用JavaScript直接操作DOM&lt;/li&gt;
+&lt;li&gt;可以配合全名用第三方JavaScript动画库，如Ve</summary>
+      
     
     
     
@@ -42,6 +53,26 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>kotlin 单例 object</title>
+    <link href="http://example.com/2022/02/02/kotlin%20%E5%8D%95%E4%BE%8B/"/>
+    <id>http://example.com/2022/02/02/kotlin%20%E5%8D%95%E4%BE%8B/</id>
+    <published>2022-02-02T08:29:10.000Z</published>
+    <updated>2022-02-03T23:12:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="object的定义"><a href="#object的定义" class="headerlink" title="object的定义"></a>object的定义</h3><h4 id="java"><a href="#java" class="headerlink" title="java"></a>java</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Singleton INSTANCE = <span class="keyword">new</span> Singleton();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="kotlin"><a href="#kotlin" class="headerlink" title="kotlin"></a>kotlin</h4><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">object</span> Singleton&#123;</span><br><span class="line"><span class="comment">//定义单例，类加载时实例化对象Singleton既是类名也是对象名  饿汉式——类一旦加载就马上初始化</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="访问object的成员"><a href="#访问object的成员" class="headerlink" title="访问object的成员"></a>访问object的成员</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;object的定义&quot;&gt;&lt;a href=&quot;#object的定</summary>
       
     
     
