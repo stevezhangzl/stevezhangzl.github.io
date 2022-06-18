@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/16/Gradle%E5%9F%BA%E7%A1%80/</loc>
+    <loc>http://example.com/2022/05/13/HTTPS-%E5%AD%A6%E4%B9%A0%E6%95%B4%E7%90%86/</loc>
     
     <lastmod>2022-06-18</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/05/13/HTTPS-%E5%AD%A6%E4%B9%A0%E6%95%B4%E7%90%86/</loc>
+    <loc>http://example.com/2022/04/16/Gradle%E5%9F%BA%E7%A1%80/</loc>
     
     <lastmod>2022-06-18</lastmod>
     
@@ -93,24 +93,6 @@
   
   <url>
     <loc>http://example.com/2022/05/16/%E7%AB%9F%E7%84%B6%E5%A6%82%E6%AD%A4%E7%AE%80%E5%8D%95%EF%BC%8CDataBinding-%E5%92%8C-ViewBinding-%E8%BD%AC/</loc>
-    
-    <lastmod>2022-06-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/05/06/%E8%AE%B0%E4%B8%80%E6%AC%A1vpn%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%AE%9E%E8%B7%B5/</loc>
-    
-    <lastmod>2022-06-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/06/08/%E8%AE%B0%E4%B8%80%E6%AC%A1vps%E6%9B%B4%E6%8D%A2ip%E5%9C%B0%E5%9D%80%E5%90%8E%EF%BC%8Cv2ray%E9%87%8D%E6%96%B0%E8%AE%BE%E7%BD%AE/</loc>
     
     <lastmod>2022-06-18</lastmod>
     
